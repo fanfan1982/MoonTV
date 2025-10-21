@@ -45,6 +45,12 @@ const DoubanSelector: React.FC<DoubanSelectorProps> = ({
     { label: '最新电影', value: '最新' },
     { label: '豆瓣高分', value: '豆瓣高分' },
     { label: '冷门佳片', value: '冷门佳片' },
+     { label: '直播', value: '直播' },
+     { label: '热舞', value: '热舞' },
+     { label: '传媒', value: '传媒' },
+     { label: '吃瓜', value: '吃瓜' },
+     { label: '福利', value: '福利' },
+     { label: '午夜', value: '午夜' },
   ];
 
   // 电影的二级选择器选项
@@ -60,6 +66,7 @@ const DoubanSelector: React.FC<DoubanSelectorProps> = ({
   const tvOptions: SelectorOption[] = [
     { label: '全部', value: 'tv' },
     { label: '国产', value: 'tv_domestic' },
+    { label: '短剧', value: 'tv_duaju' },
     { label: '欧美', value: 'tv_american' },
     { label: '日本', value: 'tv_japanese' },
     { label: '韩国', value: 'tv_korean' },
