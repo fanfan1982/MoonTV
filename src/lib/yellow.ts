@@ -1,4 +1,4 @@
-const yellowWords = [
+export const yellowWords = [
   '伦理片',
   '福利',
   '里番动漫',
@@ -20,4 +20,3 @@ const yellowWords = [
   '福利片',
   '写真热舞',
 ];
-export { yellowWords };
