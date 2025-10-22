@@ -45,12 +45,11 @@ const DoubanSelector: React.FC<DoubanSelectorProps> = ({
     { label: '最新电影', value: '最新' },
     { label: '豆瓣高分', value: '豆瓣高分' },
     { label: '冷门佳片', value: '冷门佳片' },
-    { label: '伦理片', value: '伦理片' },
-    { label: 'SWAG', value: 'SWAG' },
-    { label: '国产传媒', value: '国产传媒' },
-    { label: '门事件', value: '门事件' },
-    { label: '里番动漫', value: '里番动漫' },
-    { label: '无码', value: '无码' },
+    { label: '喜剧', value: '喜剧' },
+    { label: '爱情', value: '爱情' },
+    { label: '科幻', value: '科幻' },
+    { label: '悬疑', value: '悬疑' },
+    { label: '恐怖治愈', value: '恐怖治愈' },
   ];
 
   // 电影的二级选择器选项
